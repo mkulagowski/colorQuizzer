@@ -1,837 +1,818 @@
 [
     {
-        "name":"akwamaryna",
+        "name_pl":"akwamaryna",
+        "name_eng":"aquamarine",
         "color":"#7FFFD4",
         "baseColor":"błękit"
     },
     {
-        "name":"alabastrowy",
+        "name_pl":"alabastrowy",
+        "name_eng":"alabaster",
         "color":"#FAFFFA",
         "baseColor":"biel"
     },
     {
-        "name":"amarantowy",
-        "color":"#E61C66",
+        "name_pl":"amarantowy",
+        "name_eng":"amaranth",
+        "color":"#E52B50", 
         "baseColor":"czerwień"
     },
     {
-        "name":"ametystowy",
+        "name_pl":"ametystowy",
+        "name_eng":"amethyst",
         "color":"#9966CC",
         "baseColor":"fiolet"
     },
     {
-        "name":"antracytowy",
-        "color":"#364135",
+        "name_pl":"antracytowy",
+        "name_eng":"anthracite",
+        "color":"#293133",
         "baseColor":"szarość"
     },
     {
-        "name":"atramentowy",
+        "name_pl":"cytrynowy",
+        "name_eng":"lemon",
+        "color":"#FDFF00",
+        "baseColor":"żółć"
+    },
+    {
+        "name_pl":"błękit paryski/pruski/Turnbull'a",
+        "name_eng":"parisian/prussian/Turnbull's blue",
         "color":"#003153",
         "baseColor":"błękit"
     },
     {
-        "name":"bahama yellow",
-        "color":"#F9E04B",
+        "name_pl":"bananowy",
+        "name_eng":"banana yellow",
+        "color":"#FFF135",
         "baseColor":"żółć"
     },
     {
-        "name":"bananowy",
-        "color":"#FEFE33",
-        "baseColor":"żółć"
-    },
-    {
-        "name":"beżowy",
-        "color":"#C2B280",
+        "name_pl":"beżowy",
+        "name_eng":"beige",
+        "color":"#F5F5DC",
         "baseColor":"brąz"
     },
     {
-        "name":"biały",
+        "name_pl":"biały",
+        "name_eng":"white",
         "color":"#FFFFFF",
         "baseColor":"biel"
     },
     {
-        "name":"biskupi",
-        "color":"#FF0080",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"błękit królewski",
+        "name_pl":"modry/błękit królewski",
+        "name_eng":"royal blue",
         "color":"#4169E1",
         "baseColor":"błękit"
     },
     {
-        "name":"błękit paryski",
-        "color":"#0027C2",
+        "name_pl":"błękit Thénarda",
+        "name_eng":"cobalt blue",
+        "color":"#0047AB",
         "baseColor":"błękit"
     },
     {
-        "name":"błękit Thénarda",
-        "color":"#0300FD",
-        "baseColor":"błękit"
-    },
-    {
-        "name":"błękit Turnbulla",
-        "color":"#082E79",
-        "baseColor":"błękit"
-    },
-    {
-        "name":"bordo",
+        "name_pl":"wiśniowy",
+        "name_eng":"maroon",
         "color":"#800000",
         "baseColor":"czerwień"
     },
     {
-        "name":"brązowy",
+        "name_pl":"bordo",
+        "name_eng":"bordeaux/wine",
+        "color":"#722F37",
+        "baseColor":"czerwień"
+    },
+    {
+        "name_pl":"brązowy",
+        "name_eng":"brown",
         "color":"#964B00",
         "baseColor":"brąz"
     },
     {
-        "name":"brunatny",
-        "color":"#70201F",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"brzoskwiniowy",
+        "name_pl":"brzoskwiniowy",
+        "name_eng":"peach orange",
         "color":"#FFCC99",
         "baseColor":"biel"
     },
     {
-        "name":"buraczkowy",
-        "color":"#730029",
+        "name_pl":"burgund",
+        "name_eng":"burgundy",
+        "color":"#800020",
         "baseColor":"czerwień"
     },
     {
-        "name":"burgund",
-        "color":"#600201",
+        "name_pl":"czerwony ugier",
+        "name_eng":"red ochre",
+        "color":"#F8681F",
         "baseColor":"czerwień"
     },
     {
-        "name":"bursztynowy",
+        "name_pl":"żółty ugier",
+        "name_eng":"yellow ochre",
+        "color":"#F8A40E",
+        "baseColor":"żółć"
+    },
+    {
+        "name_pl":"brązowy ugier",
+        "name_eng":"brown ochre",
+        "color":"#562F04",
+        "baseColor":"brąz"
+    },
+    {
+        "name_pl":"bursztynowy",
+        "name_eng":"amber",
         "color":"#FFBF00",
         "baseColor":"żółć"
     },
     {
-        "name":"bury",
-        "color":"#6B5636",
+        "name_pl":"bury",
+        "name_eng":"dirt",
+        "color":"#9b7653",
         "baseColor":"brąz"
     },
     {
-        "name":"ceglasty",
+        "name_pl":"ceglasty",
+        "name_eng":"brick red",
         "color":"#E96B39",
         "baseColor":"czerwień"
     },
     {
-        "name":"chabrowy",
-        "color":"#3300CC",
+        "name_pl":"chabrowy",
+        "name_eng":"cornflower blue",
+        "color":"#6495ED",
         "baseColor":"błękit"
     },
     {
-        "name":"chamois",
+        "name_pl":"chamois",
+        "name_eng":"chamois",
         "color":"#FFFFD2",
         "baseColor":"biel"
     },
     {
-        "name":"cielisty",
+        "name_pl":"cielisty",
+        "name_eng":"peach",
         "color":"#FFE5B4",
         "baseColor":"biel"
     },
     {
-        "name":"cyjan",
+        "name_pl":"cyjan",
+        "name_eng":"cyan/aqua",
         "color":"#00FFFF",
         "baseColor":"błękit"
     },
     {
-        "name":"cyjan (druk)",
+        "name_pl":"cyjan (druk)",
+        "name_eng":"printer's cyan",
         "color":"#00B7EB",
         "baseColor":"błękit"
     },
     {
-        "name":"cyklamen",
+        "name_pl":"cyklamen",
+        "name_eng":"cyclamen",
         "color":"#A2007B",
         "baseColor":"fiolet"
     },
     {
-        "name":"cynamonowy",
-        "color":"#9D5B03",
+        "name_pl":"cynamonowy",
+        "name_eng":"chocolate",
+        "color":"#D2691E",
         "baseColor":"brąz"
     },
     {
-        "name":"cynobrowy, cynober",
+        "name_pl":"cynober",
+        "name_eng":"cinnabar/vermillion",
         "color":"#E34234",
         "baseColor":"czerwień"
     },
     {
-        "name":"cytrynowy",
+        "name_pl":"żółty",
+        "name_eng":"yellow",
         "color":"#FFFF00",
         "baseColor":"żółć"
     },
     {
-        "name":"czarny",
+        "name_pl":"czarny",
+        "name_eng":"black",
         "color":"#000000",
         "baseColor":"szarość"
     },
     {
-        "name":"czekoladowy",
-        "color":"#8B4726",
-        "baseColor":"brąz"
+        "name_pl":"żółć indyjska",
+        "name_eng":"indian yellow",
+        "color":"#E3A857",
+        "baseColor":"żółć"
     },
     {
-        "name":"czerwień alizarynowa",
+        "name_pl":"arylidowy",
+        "name_eng":"arylide/hansa yellow",
+        "color":"#E9D66B",
+        "baseColor":"żółć"
+    },
+    {
+        "name_pl":"szkarłat alizarynowy",
+        "name_eng":"alizarin crimson/madder",
         "color":"#E32636",
         "baseColor":"czerwień"
     },
     {
-        "name":"czerwień wzrokowa",
-        "color":"#FC0300",
-        "baseColor":"czerwień"
+        "name_pl":"caput mortuum",
+        "name_eng":"mummy brown/caput mortum",
+        "color":"#592720",
+        "baseColor":"brąz"
     },
     {
-        "name":"czerwień żelazowa",
+        "name_pl":"czerwień żelazowa",
+        "name_eng":"falu red",
         "color":"#801818",
         "baseColor":"czerwień"
     },
     {
-        "name":"czerwony",
+        "name_pl":"czerwony",
+        "name_eng":"red",
         "color":"#FF0000",
         "baseColor":"czerwień"
     },
     {
-        "name":"écru",
-        "color":"#F5F5DC",
+        "name_pl":"kasztanowy",
+        "name_eng":"chestnut",
+        "color":"#954535",
+        "baseColor":"brąz"
+    },
+    {
+        "name_pl":"écru",
+        "name_eng":"écru",
+        "color":"#C2B280",
         "baseColor":"biel"
     },
     {
-        "name":"eozyna",
+        "name_pl":"eozyna",
+        "name_eng":"eosin",
         "color":"#C35C6F",
         "baseColor":"czerwień"
     },
     {
-        "name":"feldgrau",
+        "name_pl":"smocza krew",
+        "name_eng":"dragon's blood",
+        "color":"#5D1509",
+        "baseColor":"czerwień"
+    },
+    {
+        "name_pl":"kardynalski",
+        "name_eng":"cardinal",
+        "color":"#c41e3a",
+        "baseColor":"czerwień"
+    },
+    {
+        "name_pl":"feldgrau",
+        "name_eng":"feldgrau",
         "color":"#4D5D53",
         "baseColor":"szarość"
     },
     {
-        "name":"fioletowy",
+        "name_pl":"fioletowy",
+        "name_eng":"violet",
         "color":"#B803FF",
         "baseColor":"fiolet"
     },
     {
-        "name":"fiołkowy",
-        "color":"#EE82EE",
-        "baseColor":"fiolet"
-    },
-    {
-        "name":"fuksja",
+        "name_pl":"fuksja",
+        "name_eng":"fuchsia",
         "color":"#FF00FF",
         "baseColor":"fiolet"
     },
     {
-        "name":"gołębi",
-        "color":"#C6CECE",
-        "baseColor":"szarość"
+        "name_pl":"fandango",
+        "name_eng":"fandango",
+        "color":"#b53389",
+        "baseColor":"fiolet"
     },
     {
-        "name":"grafitowy",
+        "name_pl":"grafitowy",
+        "name_eng":"charcoal",
         "color":"#36454F",
         "baseColor":"szarość"
     },
     {
-        "name":"granatowy",
+        "name_pl":"granatowy",
+        "name_eng":"navy",
         "color":"#000080",
         "baseColor":"błękit"
     },
     {
-        "name":"groszkowy",
-        "color":"#CADC79",
-        "baseColor":"zieleń"
-    },
-    {
-        "name":"grynszpan",
+        "name_pl":"grynszpan",
+        "name_eng":"verdigris",
         "color":"#00A693",
         "baseColor":"zieleń"
     },
     {
-        "name":"heban",
+        "name_pl":"heban",
+        "name_eng":"ebony",
+        "color":"#555D50",
+        "baseColor":"szarość"
+    },
+    {
+        "name_pl":"bistr",
+        "name_eng":"bistre",
         "color":"#3D2B1F",
-        "baseColor":"brąz"
+        "baseColor":"szarość"
     },
     {
-        "name":"herbaciany",
-        "color":"#CC5D2B",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"jagodowy",
-        "color":"#660066",
-        "baseColor":"fiolet"
-    },
-    {
-        "name":"jaśminowy",
-        "color":"#CDEBA7",
-        "baseColor":"zieleń"
-    },
-    {
-        "name":"kakaowy",
-        "color":"#906030",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"kanarkowy",
-        "color":"#FFFF33",
+        "name_pl":"jaśminowy",
+        "name_eng":"jasmine/mellow yellow",
+        "color":"#F8DE7E",
         "baseColor":"żółć"
     },
     {
-        "name":"kardynalski",
+        "name_pl":"kanarkowy",
+        "name_eng":"canary yellow",
+        "color":"#FFEF00",
+        "baseColor":"żółć"
+    },
+    {
+        "name_pl":"szkarłat",
+        "name_eng":"scarlet",
         "color":"#FF2400",
         "baseColor":"czerwień"
     },
     {
-        "name":"karmazynowy",
+        "name_pl":"karmazynowy",
+        "name_eng":"crimson",
         "color":"#DC143C",
         "baseColor":"czerwień"
     },
     {
-        "name":"karminowy",
-        "color":"#841839",
+        "name_pl":"karminowy",
+        "name_eng":"carmine",
+        "color":"#960018",
         "baseColor":"czerwień"
     },
     {
-        "name":"kasztanowy",
-        "color":"#4D1F1C",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"kawowy",
-        "color":"#2C1B01",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"khaki",
-        "color":"#618358",
+        "name_pl":"khaki",
+        "name_eng":"khaki",
+        "color":"#c3b091",
         "baseColor":"zieleń"
     },
     {
-        "name":"kobaltowy",
-        "color":"#19247C",
+        "name_pl":"kobaltowy",
+        "name_eng":"cobalt blue",
+        "color":"#0047ab",
         "baseColor":"błękit"
     },
     {
-        "name":"koniakowy",
-        "color":"#C73C07",
+        "name_pl":"koniakowy",
+        "name_eng":"cognac",
+        "color":"#a3481b",
         "baseColor":"czerwień"
     },
     {
-        "name":"koralowy",
+        "name_pl":"koralowy",
+        "name_eng":"coral",
         "color":"#FF7F50",
         "baseColor":"czerwień"
     },
     {
-        "name":"kość słoniowa",
+        "name_pl":"kość słoniowa",
+        "name_eng":"ivory",
         "color":"#FFFFF0",
         "baseColor":"biel"
     },
     {
-        "name":"kremowy",
+        "name_pl":"kremowy",
+        "name_eng":"cream",
         "color":"#FFFDD0",
         "baseColor":"biel"
     },
     {
-        "name":"krwisty",
-        "color":"#CF2929",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"lawendowy",
-        "color":"#C9A2BF",
+        "name_pl":"lawendowy",
+        "name_eng":"lavender",
+        "color":"#E6E6FA",
         "baseColor":"fiolet"
     },
     {
-        "name":"lapis-lazuli",
-        "color":"#3366CC",
-        "baseColor":"błękit"
-    },
-    {
-        "name":"lazurowy",
+        "name_pl":"lazurowy",
+        "name_eng":"azure",
         "color":"#007FFF",
         "baseColor":"błękit"
     },
     {
-        "name":"lila",
+        "name_pl":"liliowy",
+        "name_eng":"lilac",
         "color":"#C8A2C8",
         "baseColor":"fiolet"
     },
     {
-        "name":"lila róż",
+        "name_pl":"lila róż",
+        "name_eng":"lilac pink",
         "color":"#DEB4CB",
         "baseColor":"fiolet"
     },
     {
-        "name":"liliowy",
-        "color":"#DD9ECD",
-        "baseColor":"fiolet"
-    },
-    {
-        "name":"limonkowy",
-        "color":"#93F600",
+        "name_pl":"limonkowy",
+        "name_eng":"lime",
+        "color":"#BFFF00",
         "baseColor":"zieleń"
     },
     {
-        "name":"łososiowy",
+        "name_pl":"chartreuse",
+        "name_eng":"chartreuse",
+        "color":"#DFFF00",
+        "baseColor":"zieleń"
+    },
+    {
+        "name_pl":"łososiowy",
+        "name_eng":"salmon",
         "color":"#FA8072",
         "baseColor":"czerwień"
     },
     {
-        "name":"magenta (HTML)",
-        "color":"#FF00FF",
-        "baseColor":"fiolet"
-    },
-    {
-        "name":"magenta (druk)",
+        "name_pl":"magenta",
+        "name_eng":"magenta",
         "color":"#FF0090",
         "baseColor":"fiolet"
     },
     {
-        "name":"mahoń, mahoniowy",
+        "name_pl":"mahoń",
+        "name_eng":"mahogany",
         "color":"#C04000",
         "baseColor":"brąz"
     },
     {
-        "name":"majtkowy",
-        "color":"#E4BECF",
-        "baseColor":"fiolet"
-    },
-    {
-        "name":"makowy",
-        "color":"#E21E13",
+        "name_pl":"makowy (pantone)",
+        "name_eng":"poppy red (pantone)",
+        "color":"#DC343B",
         "baseColor":"czerwień"
     },
     {
-        "name":"malachitowy",
-        "color":"#006633",
+        "name_pl":"malachitowy",
+        "name_eng":"malachite",
+        "color":"#0bda51",
         "baseColor":"zieleń"
     },
     {
-        "name":"malinowy",
-        "color":"#EB0165",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"marchewkowy",
-        "color":"#FFC000",
-        "baseColor":"żółć"
-    },
-    {
-        "name":"marengo",
-        "color":"#5B5D74",
+        "name_pl":"marengo",
+        "name_eng":"marengo",
+        "color":"#4C5866",
         "baseColor":"szarość"
     },
     {
-        "name":"miedziany",
+        "name_pl":"miedziany",
+        "name_eng":"copper",
         "color":"#B87333",
         "baseColor":"brąz"
     },
     {
-        "name":"miętowy",
-        "color":"#BCE27F",
+        "name_pl":"miętowy",
+        "name_eng":"mint green",
+        "color":"#98ff98",
         "baseColor":"zieleń"
     },
     {
-        "name":"minia",
+        "name_pl":"minia",
+        "name_eng":"firebrick/red lead",
         "color":"#B22222",
         "baseColor":"czerwień"
     },
     {
-        "name":"miodowy",
-        "color":"#E3AF34",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"mleczny",
-        "color":"#FFFFF0",
-        "baseColor":"biel"
-    },
-    {
-        "name":"modry",
-        "color":"#4169E1",
-        "baseColor":"błękit"
-    },
-    {
-        "name":"morelowy",
-        "color":"#E9967B",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"morski",
+        "name_pl":"morski, cyraneczka",
+        "name_eng":"teal",
         "color":"#008080",
         "baseColor":"błękit"
     },
     {
-        "name":"morska zieleń",
+        "name_pl":"morska zieleń",
+        "name_eng":"seagreen",
         "color":"#2E8B57",
         "baseColor":"zieleń"
     },
     {
-        "name":"mosiądz/-owy",
-        "color":"#D4C279",
+        "name_pl":"mosiądz",
+        "name_eng":"brass",
+        "color":"#B5A642",
         "baseColor":"brąz"
     },
     {
-        "name":"mysi",
-        "color":"#E3E7E6",
-        "baseColor":"szarość"
-    },
-    {
-        "name":"niebieski",
+        "name_pl":"niebieski",
+        "name_eng":"blue",
         "color":"#0000FF",
         "baseColor":"błękit"
     },
     {
-        "name":"oberżynowy",
-        "color":"#532338",
+        "name_pl":"oberżynowy",
+        "name_eng":"eggplant",
+        "color":"#614051",
         "baseColor":"fiolet"
     },
     {
-        "name":"ochra",
+        "name_pl":"ugier",
+        "name_eng":"ochre",
         "color":"#CC7722",
         "baseColor":"brąz"
     },
     {
-        "name":"oliwkowy",
+        "name_pl":"oliwkowy",
+        "name_eng":"olive",
         "color":"#808000",
         "baseColor":"zieleń"
     },
     {
-        "name":"oranż",
+        "name_pl":"pomarańczowy",
+        "name_eng":"orange",
         "color":"#FFA500",
         "baseColor":"żółć"
     },
     {
-        "name":"orzechowy",
+        "name_pl":"orzechowy",
+        "name_eng":"barley corn",
         "color":"#BD9460",
         "baseColor":"brąz"
     },
     {
-        "name":"palisander",
-        "color":"#532F28",
+        "name_pl":"palisander",
+        "name_eng":"rosewood",
+        "color":"#65000B",
         "baseColor":"brąz"
     },
     {
-        "name":"patynowy",
+        "name_pl":"patynowy",
+        "name_eng":"patina",
         "color":"#6EBE9F",
         "baseColor":"zieleń"
     },
     {
-        "name":"pąsowy",
-        "color":"#EDB5AE",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"perłowy",
-        "color":"#FAFAE7",
+        "name_pl":"perłowy",
+        "name_eng":"pearl",
+        "color":"#EAE0C8",
         "baseColor":"biel"
     },
     {
-        "name":"piaskowy",
-        "color":"#F3ECDB",
-        "baseColor":"biel"
-    },
-    {
-        "name":"pistacjowy",
-        "color":"#9FFB88",
+        "name_pl":"pistacjowy",
+        "name_eng":"pistachio",
+        "color":"#93C572",
         "baseColor":"zieleń"
     },
     {
-        "name":"piwny",
-        "color":"#FDE456",
-        "baseColor":"żółć"
-    },
-    {
-        "name":"platynowy",
+        "name_pl":"platynowy",
+        "name_eng":"platinum",
         "color":"#E5E4E2",
         "baseColor":"szarość"
     },
     {
-        "name":"płowy",
-        "color":"#E1D9AC",
+        "name_pl":"płowy",
+        "name_eng":"buff",
+        "color":"#F0DC82",
         "baseColor":"biel"
     },
     {
-        "name":"pomarańczowy",
-        "color":"#FE7F00",
-        "baseColor":"żółć"
-    },
-    {
-        "name":"popielaty",
-        "color":"#DBE3DE",
+        "name_pl":"popielaty",
+        "name_eng":"ash gray",
+        "color":"#B2BEB5",
         "baseColor":"szarość"
     },
     {
-        "name":"porcelanowy",
-        "color":"#FAF7E5",
-        "baseColor":"biel"
-    },
-    {
-        "name":"poziomkowy",
-        "color":"#CF2F2F",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"purpurowy",
+        "name_pl":"purpurowy",
+        "name_eng":"purple",
         "color":"#800080",
         "baseColor":"fiolet"
     },
     {
-        "name":"rdzawy",
-        "color":"#800000",
+        "name_pl":"purpura tyryjska",
+        "name_eng":"tyrian purple",
+        "color":"#66023C",
+        "baseColor":"fiolet"
+    },
+    {
+        "name_pl":"róż indyjski",
+        "name_eng":"indian red",
+        "color":"#CD5C5C",
         "baseColor":"czerwień"
     },
     {
-        "name":"róż indyjski",
-        "color":"#C34444",
+        "name_pl":"czerwień wenecka",
+        "name_eng":"venetian red",
+        "color":"#C80815",
         "baseColor":"czerwień"
     },
     {
-        "name":"róż pompejański",
-        "color":"#B80000",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"róż wenecki",
-        "color":"#F3B387",
-        "baseColor":"biel"
-    },
-    {
-        "name":"różowy",
+        "name_pl":"różowy",
+        "name_eng":"pink",
         "color":"#FFC0CB",
         "baseColor":"czerwień"
     },
     {
-        "name":"rubinowy",
-        "color":"#D41B56",
+        "name_pl":"terra cotta",
+        "name_eng":"terra cotta",
+        "color":"#E2725B",
         "baseColor":"czerwień"
     },
     {
-        "name":"rudy",
+        "name_pl":"rubinowy",
+        "name_eng":"ruby",
+        "color":"#E0115F",
+        "baseColor":"czerwień"
+    },
+    {
+        "name_pl":"rubinowa czerwień (pantone)",
+        "name_eng":"ruby red (pantone)",
+        "color":"#9B111E",
+        "baseColor":"czerwień"
+    },
+    {
+        "name_pl":"rudy",
+        "name_eng":"tawny/tenné",
         "color":"#CD5700",
         "baseColor":"brąz"
     },
     {
-        "name":"sadza angielska",
-        "color":"#3A3431",
-        "baseColor":"szarość"
-    },
-    {
-        "name":"seledynowy",
+        "name_pl":"seledynowy",
+        "name_eng":"celadon",
         "color":"#ACE1AF",
         "baseColor":"zieleń"
     },
     {
-        "name":"sepia",
-        "color":"#AC7A33",
+        "name_pl":"sepia",
+        "name_eng":"sepia",
+        "color":"#704214",
         "baseColor":"brąz"
     },
     {
-        "name":"siarkowy",
-        "color":"#EDFA8E",
-        "baseColor":"żółć"
+        "name_pl":"sjena",
+        "name_eng":"sienna",
+        "color":"#882d17",
+        "baseColor":"brąz"
     },
     {
-        "name":"siny",
-        "color":"#8AA4B7",
-        "baseColor":"szarość"
-    },
-    {
-        "name":"siwy",
-        "color":"#DED5D0",
-        "baseColor":"szarość"
-    },
-    {
-        "name":"sjena palona",
+        "name_pl":"sjena palona",
+        "name_eng":"burnt sienna",
         "color":"#E97451",
         "baseColor":"czerwień"
     },
     {
-        "name":"słomkowy",
-        "color":"#FFFF99",
+        "name_pl":"słomkowy",
+        "name_eng":"straw",
+        "color":"#E4D96F",
         "baseColor":"żółć"
     },
     {
-        "name":"smolisty",
-        "color":"#0C2419",
-        "baseColor":"szarość"
-    },
-    {
-        "name":"spiżowy",
+        "name_pl":"spiżowy",
+        "name_eng":"bronze",
         "color":"#CD7F32",
         "baseColor":"brąz"
     },
     {
-        "name":"srebrny",
+        "name_pl":"srebrny",
+        "name_eng":"silver",
         "color":"#C0C0C0",
         "baseColor":"szarość"
     },
     {
-        "name":"stalowy",
-        "color":"#7A7D80",
-        "baseColor":"szarość"
-    },
-    {
-        "name":"stare złoto",
+        "name_pl":"stare złoto",
+        "name_eng":"old gold",
         "color":"#CFB53B",
         "baseColor":"żółć"
     },
     {
-        "name":"szafirowy",
-        "color":"#082567",
+        "name_pl":"szafirowy",
+        "name_eng":"sapphire",
+        "color":"#0F52BA",
         "baseColor":"błękit"
     },
     {
-        "name":"szafranowy",
+        "name_pl":"szafranowy",
+        "name_eng":"saffron",
         "color":"#F4C430",
         "baseColor":"żółć"
     },
     {
-        "name":"szary",
+        "name_pl":"szary",
+        "name_eng":"gray",
         "color":"#808080",
         "baseColor":"szarość"
     },
     {
-        "name":"szkarłatny",
-        "color":"#AD1111",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"szmaragdowy",
-        "color":"#19A56F",
+        "name_pl":"zieleń Veronese’a/szwajnfurcka/paryska",
+        "name_eng":"Veronese/Schweinfurt/paris green",
+        "color":"#50C878",
         "baseColor":"zieleń"
     },
     {
-        "name":"śliwkowy",
+        "name_pl":"śliwkowy",
+        "name_eng":"plum",
         "color":"#50344F",
         "baseColor":"fiolet"
     },
     {
-        "name":"świniowy",
-        "color":"#FFE1BE",
-        "baseColor":"biel"
-    },
-    {
-        "name":"tabaczkowy",
-        "color":"#866423",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"tango",
-        "color":"#870121",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"truskawkowy",
-        "color":"#CF2942",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"turkusowy",
+        "name_pl":"turkusowy",
+        "name_eng":"turquoise",
         "color":"#30D5C8",
         "baseColor":"błękit"
     },
     {
-        "name":"tycjan",
+        "name_pl":"tycjan",
+        "name_eng":"titian",
         "color":"#FF8000",
         "baseColor":"żółć"
     },
     {
-        "name":"trawiasty",
+        "name_pl":"trawiasty",
+        "name_eng":"lawn green",
         "color":"#7CFC00",
         "baseColor":"zieleń"
     },
     {
-        "name":"ugier",
-        "color":"#DA7C20",
-        "baseColor":"brąz"
-    },
-    {
-        "name":"ultramaryna",
-        "color":"#002D6E",
+        "name_pl":"ultramaryna",
+        "name_eng":"ultramarine",
+        "color":"#3f00ff",
         "baseColor":"błękit"
     },
     {
-        "name":"umbra",
-        "color":"#73542F",
+        "name_pl":"umbra",
+        "name_eng":"umber",
+        "color":"#635147",
         "baseColor":"brąz"
     },
     {
-        "name":"winny",
-        "color":"#660033",
-        "baseColor":"fiolet"
-    },
-    {
-        "name":"wiśniowy",
-        "color":"#800000",
-        "baseColor":"czerwień"
-    },
-    {
-        "name":"woskowy",
-        "color":"#E2E1A3",
+        "name_pl":"umbra palona",
+        "name_eng":"burnt umber",
+        "color":"#8A3324",
         "baseColor":"brąz"
     },
     {
-        "name":"wrzosowy",
+        "name_pl":"wrzosowy",
+        "name_eng":"heather",
         "color":"#DBB0EF",
         "baseColor":"fiolet"
     },
     {
-        "name":"indygo",
+        "name_pl":"indygo",
+        "name_eng":"indigo",
         "color":"#4B0082",
         "baseColor":"fiolet"
     },
     {
-        "name":"zieleń butelkowa",
+        "name_pl":"zieleń butelkowa",
+        "name_eng":"bottle green",
         "color":"#326647",
         "baseColor":"zieleń"
     },
     {
-        "name":"zieleń jaskrawa",
+        "name_pl":"zieleń RGB",
+        "name_eng":"RGB green",
         "color":"#00FF00",
         "baseColor":"zieleń"
     },
     {
-        "name":"zieleń Veronese’a",
-        "color":"#33CC66",
+        "name_pl":"zieleń chromowa/szmaragdowa/Guignet'a (Pantone)",
+        "name_eng":"viridian/emerald/Guignet's green (Pantone)",
+        "color":"#009698",
         "baseColor":"zieleń"
     },
     {
-        "name":"zieleń wiosenna",
-        "color":"#C0D727",
+        "name_pl":"zieleń kobaltowa",
+        "name_eng":"cobalt green",
+        "color":"#136207",
         "baseColor":"zieleń"
     },
     {
-        "name":"zieleń zgniła",
-        "color":"#6E6F2F",
-        "baseColor":"zieleń"
-    },
-    {
-        "name":"zielony",
+        "name_pl":"zielony",
+        "name_eng":"green",
         "color":"#008000",
         "baseColor":"zieleń"
     },
     {
-        "name":"złocisty",
-        "color":"#FFC125",
-        "baseColor":"żółć"
-    },
-    {
-        "name":"złoty",
+        "name_pl":"złoty",
+        "name_eng":"gold",
         "color":"#FFD700",
         "baseColor":"żółć"
     },
     {
-        "name":"żółty",
-        "color":"#FFFF00",
+        "name_pl":"żółć kadmowa",
+        "name_eng":"cadmium yellow",
+        "color":"#FFF600",
         "baseColor":"żółć"
     },
     {
-        "name":"żółty (druk)",
-        "color":"#FFEF00",
+        "name_pl":"pomarańcz kadmowa",
+        "name_eng":"cadmium orange",
+        "color":"#ED872D",
+        "baseColor":"żółć"
+    },
+    {
+        "name_pl":"czerwień kadmowa",
+        "name_eng":"cadmium red",
+        "color":"#E30022",
+        "baseColor":"czerwień"
+    },
+    {
+        "name_pl":"zieleń kadmowa",
+        "name_eng":"cadmium green",
+        "color":"#006B3C",
+        "baseColor":"zieleń"
+    },
+    {
+        "name_pl":"gumiguta",
+        "name_eng":"gamboge",
+        "color":"#E49B0F",
         "baseColor":"żółć"
     }
 ]

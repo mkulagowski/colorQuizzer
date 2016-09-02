@@ -1,3 +1,17 @@
+/*
+ * String .format() implementation
+ */
+if (!String.prototype.format) {
+  String.prototype.format = function() {
+    var args = arguments;
+    return this.replace(/{(\d+)}/g, function(match, number) { 
+      return typeof args[number] != 'undefined'
+        ? args[number]
+        : match
+      ;
+    });
+  };
+}
 
 /*
  * Fisher - Yates shuffle
@@ -43,7 +57,8 @@ function shuffle(array) {
  */
 function colorObject(item) {
     return {
-        "name": item.name,
+        "name_pl": item.name_pl,
+        "name_eng": item.name_eng,
         "color": item.color,
         "category": item.baseColor
     };
@@ -175,10 +190,37 @@ $().ready(function() {
     var gColorsArray, gColorsMap;
 
     // Variables for currently tested color
-    var gCurrentColor, gCurrentContainer;
+    var gCurrentColor, gCurrentContainer, gCurrentLang = "pl";
 
     // Counter that tracks current streak
     var gCounter = 0;
+
+    // Template for color names. Node name can be created by appending language
+    const cNameTemplate = "name_";
+
+    // Template for question
+    var cQuestionTemplate = {
+        "pl" : "Ktory kolor to {0} ?",
+        "eng": "Which colour is {0} ?"
+    };
+
+    // Template for result message
+    const cMsg = {
+        "pl": ["ZLE", "DOBRZE"],
+        "eng": ["WRONG", "RIGHT"]
+    };
+
+    // Template for question
+    const cCounterTemplate = {
+        "pl" : "DOBRE ODP: {0}",
+        "eng": "RIGHT ANS: {0}"
+    };
+
+    // Template for mode
+    const cModeTemplate = {
+        "pl" : "TRYB {0}",
+        "eng": "MODE {0}"
+    };
 
     /*
      * Function for refreshing color nodes on page
@@ -197,8 +239,37 @@ $().ready(function() {
         gCurrentContainer = colorPair.container;
 
         // Update question with test color's name
-        $('#question').text('Ktory kolor to ' + gCurrentColor.name + '?');
+        setNodeTextMultilang($('#question'), cQuestionTemplate, gCurrentColor[cNameTemplate + gCurrentLang]);
     };
+
+    /*
+     * Function for setting nodes text according to current language
+     *
+     * @remarks This function takes variable number of arguments.
+     *          First argument have to be a node, second a format string and the rest
+     *          have to be format arguments.
+     */
+    function setNodeTextMultilang() {
+        if (arguments.length < 2)
+            return;
+
+        var node = arguments[0];
+        var formatStr = arguments[1];
+
+
+        // Update question with test color's name
+        if (arguments.length > 2) {
+            var argArray = new Array();
+            for (i = 2; i < arguments.length; i++)
+                argArray.push(arguments[i]);
+
+            node.text(formatStr[gCurrentLang].format(argArray));
+        } else
+            node.text(formatStr[gCurrentLang]);
+
+        return;
+    };
+
 
     // Parse JSON with colors
     $.getJSON("colors.json").done(function(data) {
@@ -228,19 +299,19 @@ $().ready(function() {
         $(objId).attr('src', 'tick.png');
 
         // Check if clicked element is the test image
-        var msg = 'DOBRZE';
+        var isChoiceRight = 1;
         if(hexColor == gCurrentColor.color)
             gCounter++;
         else {
             gCounter = 0;
-            msg = 'ZLE!';
+            isChoiceRight = 0;
         }
 
         // Update counter
-        $('#counter').text('TRAFIONE: ' + gCounter);
+        setNodeTextMultilang($('#counter'), cCounterTemplate, gCounter);
 
         // Propagate alert with result
-        alert(msg);
+        alert(cMsg[gCurrentLang][isChoiceRight]);
 
         // Remove cross/tick icons from all nodes
         $('.color #icon').removeAttr('src');
@@ -259,13 +330,32 @@ $().ready(function() {
 
         // Reset counter
         gCounter = 0;
-        $('#counter').text('TRAFIONE: ' + gCounter);
+        setNodeTextMultilang($('#counter'), cCounterTemplate, gCounter);
 
         // Set new mode
         $(this).val(newMode);
-        $(this).text('TRYB ' + newMode);
+        setNodeTextMultilang($(this), cModeTemplate, newMode);
 
         // Refresh colors
         refreshColors();
     });
+
+    // Set on-change callback for language selector
+    $(".language select").bind('change', function() {
+        // Save language choice
+        gCurrentLang = $(".language select").val();
+
+        // Refresh counter
+        setNodeTextMultilang($('#counter'), cCounterTemplate, gCounter);
+
+        // Refresh question
+        setNodeTextMultilang($('#question'), cQuestionTemplate, gCurrentColor[cNameTemplate + gCurrentLang]);
+
+        // Refresh mode
+        setNodeTextMultilang($('#modeSwitch'), cModeTemplate, $('#modeSwitch').val());
+    });
+
+    // Set default language
+    $(".language select").val(gCurrentLang);
+
 });

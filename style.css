@@ -22,5 +22,13 @@ h1
 
 button, p
 {
-  position: absolute;
+  position:   absolute;
+}
+
+.language
+{
+  position:   absolute;
+  top:        5px;
+  right:      5px;
+  padding:    20px;
 }
